@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Subscribe for experiments</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+    
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body style="width: 100%">
+    <section class="data-field">
+      <div class="title">
+        SUBSCRIBE FOR NEWSLETTER
+        <div
+          style="width: 100%; font-size: 14px; font-weight: normal; padding-top: 4px;"
+        >
+          This is part of DataBuffer and GoogleSheetAPI, All emails are stored
+          in Google Sheet, and sheet does not disclouser to any third parties.
+        </div>
+      </div>
+      <div class="data">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <button id="send">
+          SUBSCRIBE
+        </button>
+      </div>
+    </section>
+    <section class="data-log">
+      <div class="data-log-main" id="logs">
+        <p>
+          <b>LOGS</b>
+        </p>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.rawgit.com/dcodeIO/protobuf.js/6.8.6/dist/protobuf.js"
+      defer
+    ></script>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>
